@@ -16,8 +16,9 @@
     width : 140px;
 }
 .logo {
-    background-image: url(logo_cartora.png);
-    background-size: cover;
+    background-image: url(cartora_logo1.png);
+    background-size: 140px auto;
+    background-position: center;
     position: relative;
     height : 50px;
     width : 100%;
@@ -299,8 +300,10 @@ h2 {
 .logo_bar {
     height : 50px;
     width : 10%;
-    background-image: url(logo_cartora.png);
-    background-size: cover;
+    background-image: url(cartora_logo1.png);
+    background-repeat: no-repeat;
+    background-size: 127px auto;
+    background-position: center;
     position: relative;
     left : 50px;
 }
