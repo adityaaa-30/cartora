@@ -1,0 +1,306 @@
+* {
+    margin : 0px;
+    font-family: arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #fbedcb;
+    color: #343235;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height : 50px;
+    width : 140px;
+}
+.logo {
+    background-image: url(logo_cartora.png);
+    background-size: cover;
+    position: relative;
+    height : 50px;
+    width : 100%;
+}
+.border {
+    border : 2px solid transparent;
+}
+.border:hover {
+    border : 2px solid #343235;
+}
+/** 2nd box on navbar */
+.add-first {
+    color : #343235;
+    font-size: 0.85rem;
+    margin-left: 20px;
+}
+.add-second {
+    font-size: 1rem;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/** 3rd box on navbar which is nav-search */
+.nav-search {
+    display : flex;
+    justify-content: space-evenly;
+    width : 625px;
+    height : 40px;
+    background-color: #febd69;
+    border-radius: 5px;
+}
+.nav-search:hover {
+    border : 2px solid #343235;
+}
+.search-select {
+    background-color: #e6d1b5;
+    border-top-left-radius : 5px;
+    border-bottom-left-radius : 5px;
+    border : none;
+    width : 50px;
+    text-align: center;
+}
+.search-input {
+    width : 100%;
+    font-size: 1rem;
+    border : none;
+}
+.search-icon {
+    width : 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color : #0f1111;
+}
+/** box4 which is signin */
+.nav-first {
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** box5 which is cart */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** panel */
+.panel {
+    height : 40px;
+    background-color: #494440;
+    color : white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-all {
+    color : white;
+    text-decoration: none;
+}
+.panel-options a {
+    text-decoration: none;
+    color : white;
+    margin-left: 15px;
+}
+.panel-options {
+    width : 70%;
+    font-size: 0.85rem;
+}
+.panel-deals a {
+    color : white;
+    text-decoration: none;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** hero section */
+.hero-section {
+    background-image:url(hero_img.jpg);
+    background-size: cover;
+    height :400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    color : black;
+    height : 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width : 95%;
+    margin-bottom: 10px;
+}
+.hero-msg a {
+    color : #2162a1;
+    text-decoration: none;
+}
+/** shop content */
+.box {
+    height : 385px;
+    width : 22%;
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box:hover {
+    transform: scale(1.05); /* thoda zoom */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* halka shadow */
+}
+.shop-content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff5be;
+    padding : 20px 0px 15px;
+     background: linear-gradient(to bottom, #ff6201 0%, #fff5be 100%);
+}
+.box1-img {
+    height : 300px;
+    background-image: url(img_1.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.box-cont {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h2 {
+    margin-top: 10px;
+}
+.box-cont a {
+    color : #007185
+}
+.box2-img {
+    height : 300px;
+    background-image: url(img_2.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.one {
+    text-decoration: none;
+}
+.one:hover {
+    text-decoration: underline;
+    color: #03434e;
+}
+.box3-img {
+    height : 300px;
+    background-image: url(img_3.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.box4-img {
+    height : 300px;
+    background-image: url(img_4.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.top_link {
+    height : 50px;
+    background-color: #494440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_link a {
+    color : white;
+    text-decoration: none;
+    padding-top : 15px;
+    padding-bottom: 15px;
+}
+.footer_panel {
+    height : 310px;
+    background-color: #fbedcb;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fbox {
+    height : 300px;
+}
+.fheading {
+    font-size: 1rem;
+    font-weight: 700;
+    color : #343235;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.fbox a {
+    color : #343235;
+    text-decoration: none;
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.language {
+    height : 80px;
+    border-top: 1px solid #343235;
+    background-color: #fbedcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    border : none;
+    background-color: #fbedcb;
+    display: inline-block;
+    margin-right: 10px;
+}
+.lang_ops {
+    height : 40px;
+    width : 42%;
+    display: flex;
+    position: relative;
+    left : 50px;
+}
+.three {
+    border : 1px solid #343235;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.three i {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.india {
+    height: 15px;
+    width: 20px;
+    background-image: url(ind.png);
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.ind {
+    display: inline-block;
+    margin-right: 10px;
+}
+.usd {
+    display: inline-block;
+    margin-right: 10px;
+}
+.logo_bar {
+    height : 50px;
+    width : 10%;
+    background-image: url(logo_cartora.png);
+    background-size: cover;
+    position: relative;
+    left : 50px;
+}
