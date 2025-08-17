@@ -210,6 +210,40 @@ h2 {
     margin-top: 10px;
     margin-bottom: 1rem;
 }
+.shop-content2 {
+    display : flex;
+    justify-content: space-evenly;
+    background-color: #fcf4bc;
+    padding : 5px 0px 15px;
+}
+.box5-img {
+    height : 300px;
+    background-image: url(img_5.png);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.box6-img {
+    height : 300px;
+    background-image: url(img_6.png);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.box7-img {
+    height : 300px;
+    background-image: url(img_7.png);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.box8-img {
+    height : 300px;
+    background-image: url(img_8.png);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
 .top_link {
     height : 50px;
     background-color: #494440;
