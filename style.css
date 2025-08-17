@@ -5,7 +5,7 @@
 }
 .navbar {
     height: 60px;
-    background-color: #fbedcb;
+    background-color: #c1c1c1;
     color: #343235;
     display: flex;
     align-items: center;
@@ -48,14 +48,15 @@
     justify-content: space-evenly;
     width : 625px;
     height : 40px;
-    background-color: #febd69;
+    background-color: #545775;
     border-radius: 5px;
 }
 .nav-search:hover {
-    border : 2px solid #343235;
+    border : 2px solid #545775;
 }
 .search-select {
-    background-color: #e6d1b5;
+    background-color: #545775;
+    color : white;
     border-top-left-radius : 5px;
     border-bottom-left-radius : 5px;
     border : none;
@@ -75,7 +76,7 @@
     font-size: 1.2rem;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    color : #0f1111;
+    color : white;
 }
 /** box4 which is signin */
 .nav-first {
@@ -96,7 +97,7 @@
 /** panel */
 .panel {
     height : 40px;
-    background-color: #494440;
+    background-color: #2c4251;
     color : white;
     display: flex;
     align-items: center;
@@ -155,15 +156,15 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .box:hover {
-    transform: scale(1.05); /* thoda zoom */
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* halka shadow */
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 .shop-content {
     display: flex;
     justify-content: space-evenly;
     background-color: #fff5be;
     padding : 20px 0px 15px;
-     background: linear-gradient(to bottom, #ff6201 0%, #fff5be 100%);
+     background: linear-gradient(to bottom, #ff6201 0%, #f5edf0 100%);
 }
 .box1-img {
     height : 300px;
@@ -213,7 +214,7 @@ h2 {
 .shop-content2 {
     display : flex;
     justify-content: space-evenly;
-    background-color: #fcf4bc;
+    background-color: #f5edf0;
     padding : 5px 0px 15px;
 }
 .box5-img {
@@ -246,7 +247,7 @@ h2 {
 }
 .top_link {
     height : 50px;
-    background-color: #494440;
+    background-color: #2c4251;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +260,7 @@ h2 {
 }
 .footer_panel {
     height : 310px;
-    background-color: #fbedcb;
+    background-color: #c1c1c1;
     display: flex;
     justify-content: space-evenly;
 }
@@ -283,14 +284,14 @@ h2 {
 .language {
     height : 80px;
     border-top: 1px solid #343235;
-    background-color: #fbedcb;
+    background-color: #c1c1c1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .arrow {
     border : none;
-    background-color: #fbedcb;
+    background-color: #c1c1c1;
     display: inline-block;
     margin-right: 10px;
 }
