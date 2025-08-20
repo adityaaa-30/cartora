@@ -6,6 +6,16 @@
    <title>Cartora.com</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Favicon for all devices -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Android Chrome icons -->
+<link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
 <body>
    <header>
       <div class="navbar">
@@ -19,15 +29,18 @@
                <p class="add-second">India</p>
             </div>
          </div>
-      <div class="nav-search">
-         <select class="search-select">
-            <option>All</option>
+      <form class="nav-search" id="searchForm">
+         <select class="search-select" id="searchCategory">
+            <option value="all">All</option>
+            <option value="electronics">Electronics</option>
+            <option value="books">Books</option>
+            <option value="clothes">Clothes</option>
          </select>
-         <input class="search-input" placeholder="Search Cartora">
-         <button class="search-icon" type="submit">
+         <input type="text" class="search-input" id="searchInput" placeholder="Search here...">
+         <button type="submit" class="search-icon">
             <i class="fa-solid fa-magnifying-glass"></i>
          </button>
-      </div>
+      </form>
           <div class="nav-signin border">
             <p class="nav-first">Hello, Sign in</p>
             <p class="nav-second">Account & Lists</p>
@@ -43,8 +56,9 @@
       </div>
       <div class="panel">
          <div class="panel-all">
-            <a class="nav-all" href="#"><i class="fa-solid fa-bars"></i>All</a>
-            
+            <button class="menu-toggle" aria-expanded="false" aria-controls="mobileMenu">
+               <i class="fa-solid fa-bars"></i> All
+            </button>
          </div>
          <div class="panel-options">
             <a href="#">Today's Deals</a>
@@ -58,6 +72,31 @@
             <a href="#">Deals in Electronics</a>
          </div>
       </div>
+      <nav id="mobileMenu" class="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu__header">
+    <span>All sections</span>
+    <button class="menu-close" aria-label="Close menu">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <ul class="mobile-menu__list">
+    <!-- Navbar se moved items -->
+    <li><a href="#">Hello, Sign in — Account & Lists</a></li>
+    <li><a href="#">Returns & Orders</a></li>
+    <li><a href="#"><i class="fa-solid fa-location-dot"></i> Deliver to India</a></li>
+
+    <!-- Panel ke options -->
+    <li><a href="#">Today's Deals</a></li>
+    <li><a href="#">Prime Video</a></li>
+    <li><a href="#">Registry</a></li>
+    <li><a href="#">Customer Service</a></li>
+    <li><a href="#">Gift Cards</a></li>
+    <li><a href="#">Sell</a></li>
+    <li><a href="#">Deals in Electronics</a></li>
+  </ul>
+</nav>
+<div class="backdrop" data-close-menu></div>
    </header>
    <div class="hero-section">
       <div class="hero-msg">
